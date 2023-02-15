@@ -1,0 +1,21 @@
+print("Ingrese un numero entero positivo")
+Numero=int(input())
+i=0
+suma=0
+while Numero!=i:
+    i=i+1
+    suma=suma+i
+print("La suma de su rango es: "+str(suma))
+print("Ingrese un numero entero positivo")
+Numero2=int(input())
+i=0
+sumaPar=0
+sumaImpar=0
+while Numero2!=i:
+    i=i+1
+    if i % 2 == 0:
+        sumaPar=sumaPar+i
+    else: 
+        sumaImpar=sumaImpar+i
+print("La suma de los pares  es: "+str(sumaPar))
+print("La suma de los impares  es: "+str(sumaImpar))
